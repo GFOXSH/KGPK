@@ -1,0 +1,10 @@
+<script type="text/javascript">
+function funonload() {
+    if (location.pathname == "/") {
+        document.location.href = "#image";
+    }
+}
+window.onload = funonload;
+</script>
+
+<details open=""><summary>Показать/скрыть</summary><p align="center"><a name="image" href="/index.html"><img src="/image.png" alt="" /></a></p></details>
